@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.Gambitly" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

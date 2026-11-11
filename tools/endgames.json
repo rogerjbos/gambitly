@@ -1,0 +1,107 @@
+[
+  {
+    "category": "Basic checkmates",
+    "title": "Queen and king vs king",
+    "fen": "8/8/8/4k3/8/8/8/3QK3 w - - 0 1",
+    "userSide": "w", "goal": "mate", "moveLimit": 20,
+    "hint": "Use the queen to shrink the box the king can move in, then bring your own king up. Watch out for stalemate."
+  },
+  {
+    "category": "Basic checkmates",
+    "title": "Queen vs king, from the far corner",
+    "fen": "7k/8/8/8/8/8/8/KQ6 w - - 0 1",
+    "userSide": "w", "goal": "mate", "moveLimit": 20,
+    "hint": "Trap the king on the edge with the queen a knight's move away, then walk your king over."
+  },
+  {
+    "category": "Basic checkmates",
+    "title": "Two rooks: the ladder mate",
+    "fen": "8/8/8/4k3/8/8/8/R3K2R w - - 0 1",
+    "userSide": "w", "goal": "mate", "moveLimit": 15,
+    "hint": "The rooks take turns checking, each cutting off one more rank. Your king is not needed."
+  },
+  {
+    "category": "Basic checkmates",
+    "title": "Rook and king vs king",
+    "fen": "8/8/8/4k3/8/8/8/4K2R w - - 0 1",
+    "userSide": "w", "goal": "mate", "moveLimit": 30,
+    "hint": "Cut the king off with the rook, face it with your king, and check when the kings stand opposite each other."
+  },
+  {
+    "category": "Basic checkmates",
+    "title": "Two bishops vs king",
+    "fen": "8/8/8/4k3/8/8/8/2B1KB2 w - - 0 1",
+    "userSide": "w", "goal": "mate", "moveLimit": 35,
+    "hint": "Keep the bishops side by side to build a wall, and drive the king into a corner."
+  },
+  {
+    "category": "Basic checkmates",
+    "title": "Bishop and knight vs king",
+    "fen": "8/8/8/4k3/8/8/8/1N2KB2 w - - 0 1",
+    "userSide": "w", "goal": "mate", "moveLimit": 50,
+    "hint": "Mate is only possible in a corner of the bishop's colour. Drive the king to the edge, then along it with the knight's W manoeuvre."
+  },
+  {
+    "category": "Pawn endings",
+    "title": "King on the sixth in front of the pawn",
+    "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+    "userSide": "w", "goal": "promote", "moveLimit": 12,
+    "hint": "Step aside with the king to take control of the queening square, then push the pawn."
+  },
+  {
+    "category": "Pawn endings",
+    "title": "King two squares ahead of the pawn",
+    "fen": "8/8/4k3/8/4K3/8/4P3/8 b - - 0 1",
+    "userSide": "w", "goal": "promote", "moveLimit": 20,
+    "hint": "Lead with the king, not the pawn. Take the opposition and use spare pawn moves only when you need to pass the move."
+  },
+  {
+    "category": "Pawn endings",
+    "title": "Holding the draw against a pawn",
+    "fen": "4k3/8/8/4PK2/8/8/8/8 b - - 0 1",
+    "userSide": "b", "goal": "draw", "moveLimit": 12,
+    "hint": "Stay in front of the pawn. When you must retreat, go straight back so you can take the opposition."
+  },
+  {
+    "category": "Pawn endings",
+    "title": "Rook pawn: the corner draws",
+    "fen": "6k1/8/8/7P/6K1/8/8/8 b - - 0 1",
+    "userSide": "b", "goal": "draw", "moveLimit": 12,
+    "hint": "Head for the corner in front of the pawn. Once there you cannot be driven out."
+  },
+  {
+    "category": "Pawn endings",
+    "title": "Réti's study: catch the uncatchable pawn",
+    "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 0 1",
+    "userSide": "w", "goal": "draw", "moveLimit": 10,
+    "hint": "Move the king diagonally: every step both chases the h-pawn and comes closer to supporting your own."
+  },
+  {
+    "category": "Pawn endings",
+    "title": "Wrong-coloured bishop",
+    "fen": "7k/8/6K1/7P/8/3B4/8/8 b - - 0 1",
+    "userSide": "b", "goal": "draw", "moveLimit": 12,
+    "hint": "The bishop cannot control the queening square, so just stay in or next to the corner."
+  },
+  {
+    "category": "Rook endings",
+    "title": "Lucena position: building a bridge",
+    "fen": "1K6/1P1k4/8/8/8/8/r7/2R5 w - - 0 1",
+    "userSide": "w", "goal": "promote", "moveLimit": 25,
+    "hint": "Check the king away, lift your rook to the fourth rank, then walk your king out and block the checks with the rook."
+  },
+  {
+    "category": "Rook endings",
+    "title": "Philidor position: the third-rank defence",
+    "fen": "3k4/7R/r7/3PK3/8/8/8/8 b - - 0 1",
+    "userSide": "b", "goal": "draw", "moveLimit": 15,
+    "hint": "Keep your rook on your third rank until the pawn advances to it, then drop the rook to the far end and check from behind."
+  },
+  {
+    "category": "Queen endings",
+    "title": "Queen vs pawn on the seventh",
+    "fen": "8/6K1/8/8/8/2Q5/3pk3/8 w - - 0 1",
+    "userSide": "w", "goal": "mate", "moveLimit": 40,
+    "hint": "Check until the king is forced to step in front of its pawn; each time it does, bring your own king one square closer."
+  }
+]

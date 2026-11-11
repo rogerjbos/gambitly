@@ -1,0 +1,15 @@
+.gradle/
+.kotlin/
+.idea/
+build/
+local.properties
+*.iml
+.cxx/
+.DS_Store
+captures/
+tools/.cache/
+__pycache__/
+app/src/main/cpp/nnue/
+keystore.properties
+*.jks
+*.keystore
